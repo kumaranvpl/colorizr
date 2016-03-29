@@ -17,7 +17,7 @@ class String
 	}
 
 	# Dynamic generate instance methods(in a class method ;) )
-	def self.make_colors
+	def self.create_colors
 		@@color_codes.each do |color, code|
 		  	self.send(:define_method, "#{color}") do
 				code + self + "\e[0m"
@@ -25,7 +25,7 @@ class String
 	  	end
 	end
 
-	self.make_colors
+	self.create_colors
 
 	# class method to return color codes
 	def self.color
