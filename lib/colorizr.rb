@@ -10,9 +10,9 @@ class String
 		yellow: "\e[33m",
 		blue: "\e[34m",
 		pink: "\e[35m",
-		light_blue: "\e[94m",
+		light_blue: "\e[1;34m",
 		white: "\e[97m",
-		light_grey: "\e[37m",
+		light_grey: "\e[1;30m",
 		black: "\e[30m"
 	}
 

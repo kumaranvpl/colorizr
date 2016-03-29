@@ -1,0 +1,11 @@
+1. How does your gem take advantage of Ruby’s metaprogramming capabilities?
+	It takes advantage of using :define_method.
+
+2. How long did you spend working on this project?
+	More or less 2 hour.
+
+3. What was the most rewarding challenge you conquered?
+	I created a working gem. That is a great accomplishment.
+
+4. Where do you still have room to grow?
+	Have to practice more.
