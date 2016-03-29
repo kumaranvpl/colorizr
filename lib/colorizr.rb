@@ -28,7 +28,7 @@ class String
 	self.create_colors
 
 	# class method to return color codes
-	def self.color
+	def self.colors
 	  @@color_codes.keys
 	end
 
